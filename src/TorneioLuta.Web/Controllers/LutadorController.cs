@@ -49,7 +49,7 @@ namespace TorneioLuta.Web.Controllers
 
             var campeao = resultadoFinal.Select(x => x.Nome).FirstOrDefault();
 
-            //depois de toda a regra, a gente pega o nome do lutador e concatena aqui no responseText
+            
             return Json(new { success = true, responseText = "Campeão: " + campeao });
         }
 
