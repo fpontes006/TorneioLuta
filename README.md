@@ -1,4 +1,8 @@
-# TorneioLuta
+# Orientações
+
+# Clone
+Clonar repositório para maquina local.
+
 
 # Executando a aplicação
 Executar a aplicação seguindo os seguintes passos.
