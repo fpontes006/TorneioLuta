@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TorneioLuta.Dominio.Entidades
 {
-    public class Lutadores
+    public class Lutadores : InfoResultado
     {
         [JsonProperty("id")]
         public int Id { get; set; }
@@ -30,7 +30,6 @@ namespace TorneioLuta.Dominio.Entidades
         [JsonProperty("vitorias")]
         public int Vitorias { get; set; }
 
-        public double Resultado { get; set; }
-        public int Sequencial { get; set; }
+        
     }
 }
